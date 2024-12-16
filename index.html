@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Para Lunita</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body onclick="PlayAudio()">
+    <div class="birthdayCard">
+      <div class="cardFront">
+        <h3 class="happy">Laura Luna</h3>
+        <div class="balloons">
+          <div class="corazon">
+          </div>
+        </div>
+      </div>
+      <div class="cardInside">
+        <p>Para mi amocito,</p>
+        <p>
+          Quiero pedirte disculpas de todo corazon por las palabras que te dije, reconozco que te lastime y no tenia ninguna intencion de hacerlo. Mi tono y mis palabras fueron incorrectos y lamento profundamente haberte hecho sentir mal<br><br>
+          Prometo ser mas cuidadoso y pensar antes de hablar, porque valoro mucho nuestra relacion y no quiero que nada la dañe<br>
+          Te pido perdon y espero que podamos superar esto juntos<br><br>Ti amu mucho
+        </p>
+      </div>
+    </div>
+    <audio id= "musicafondo" autoplay loop>
+      <source src="audio.mp3" type="audio/mp3">
+  </audio>
+  <script>
+
+    function PlayAudio(){
+        document.getElementById("musicafondo").play();
+    }
+</script> 
+  </body>
+</html>
